@@ -1,0 +1,17 @@
+{
+    "name": "elastic-search-orm/elastic-search-orm",
+    "description": "ElasticSearch相关ORM操作",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "ElasticSearchOrm\\ElasticSearchOrm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "904915452",
+            "email": "904915452@qq.com"
+        }
+    ],
+    "require": {}
+}
