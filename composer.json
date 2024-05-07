@@ -1,5 +1,7 @@
 {
     "name": "elastic-search-orm/elastic-search-orm",
+    "description": "A ElasticSearch Client ORM",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "ElasticSearchOrm\\ElasticSearchOrm\\": "src/"
