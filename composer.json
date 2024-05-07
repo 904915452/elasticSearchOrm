@@ -1,8 +1,8 @@
 {
-    "name": "elastics-search-orm/elastics-search-orm",
+    "name": "elastic-search-orm/elastic-search-orm",
     "autoload": {
         "psr-4": {
-            "ElasticsSearchOrm\\ElasticsSearchOrm\\": "src/"
+            "ElasticSearchOrm\\ElasticSearchOrm\\": "src/"
         }
     },
     "authors": [
