@@ -1,16 +1,13 @@
 {
-    "name": "elastic-search-orm/elastic-search-orm",
-    "description": "ElasticSearch相关ORM操作",
-    "type": "composer-plugin",
+    "name": "elastics-search-orm/elastics-search-orm",
     "autoload": {
         "psr-4": {
-            "ElasticSearchOrm\\ElasticSearchOrm\\": "src/"
+            "ElasticsSearchOrm\\ElasticsSearchOrm\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "904915452",
-            "email": "904915452@qq.com"
+            "name": "Zhang Qingyu"
         }
     ],
     "require": {}
