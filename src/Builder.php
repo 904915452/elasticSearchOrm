@@ -5,7 +5,7 @@
  * @LastEditors: 904915452 904915452@qq.com
  * @LastEditTime: 2024-05-07 17:21:29
  * @FilePath: \elasticSearchOrm\src\1.php
- * @Description: 链式操作生成 
+ * @Description: 链式操作生成
  */
 
 namespace ElasticSearchOrm;
