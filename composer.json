@@ -12,5 +12,12 @@
             "name": "Zhang Qingyu"
         }
     ],
-    "require": {}
+    "require": {
+        "elasticsearch/elasticsearch":"*"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
 }
