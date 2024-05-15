@@ -22,14 +22,14 @@ $client = $es->getClient();
 
 
 // 判断索引是否存在 （判断表是否存在）
-// $results = $client->indices()->exists(["index" => "my_index"]);
+// $results = $client->indices()->exists(["index" => "test"]);
 
 
 // 创建索引（创建表）
-// $params = [
-//     'index' => 'my_index',
-// ];
-// $results = $client->indices()->create($params);
+$params = [
+    'index' => 'test',
+];
+$results = $client->indices()->create($params);
 
 
 // 添加 （添加数据）

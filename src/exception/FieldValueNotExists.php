@@ -2,9 +2,9 @@
 
 namespace ElasticSearchOrm\ElasticSearchOrm\exception;
 
-class ConnectionException extends Exception
+class FieldValueNotExists extends Exception
 {
-    public function __construct(string $message = 'ElasticSearch connection error', array $config = [], int $code = 10001)
+    public function __construct(string $message = 'Field Value Not Exists', array $config = [], int $code = 10003)
     {
         $this->message = $message;
         $this->code = $code;

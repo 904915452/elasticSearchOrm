@@ -27,15 +27,6 @@ abstract class BaseBuilder
      */
     protected $query;
 
-    /**
-     * 查询表达式映射.
-     *
-     * @var array
-     */
-    protected $exp = [
-        'NOTLIKE' => 'NOT LIKE', 'NOTIN' => 'NOT IN', 'NOTBETWEEN' => 'NOT BETWEEN', 'NOTEXISTS' => 'NOT EXISTS', 'NOTNULL' => 'NOT NULL', 'NOTBETWEEN TIME' => 'NOT BETWEEN TIME'
-    ];
-
     public function __construct(Connection $connection)
     {
         $this->connection = $connection;
@@ -49,5 +40,13 @@ abstract class BaseBuilder
     public function getConnection()
     {
         return $this->connection;
+    }
+
+    /**
+     * 重置Query
+     */
+    protected function resetQuery()
+    {
+        $this->query = new Query;
     }
 }
